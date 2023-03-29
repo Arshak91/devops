@@ -46,7 +46,9 @@ aws ec2 create-tags \
   --resources "$gatewayId" \
   --tags Key=Name,Value="$gatewayName"
 
+
 #attach gateway to vpc
+
 attach_response=$(aws ec2 attach-internet-gateway \
  --internet-gateway-id "$gatewayId"  \
  --vpc-id "$vpcId")
