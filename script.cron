@@ -1,0 +1,2 @@
+* * * * * /usr/bin/sh /home/ubuntu/editDate.sh
+* * * * * sleep 30; /usr/bin/sh /home/ubuntu/editDate.sh

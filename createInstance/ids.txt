@@ -1,0 +1,1 @@
+i-0ed2468a5faca167d, rtb-06bc73d0c258b51ea, sg-0dee38db8407c2538, subnet-069c2d6a796495a7b, igw-0dba08a244c03330d, vpc-0a0eec5aa9b2932af
