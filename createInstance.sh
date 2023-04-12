@@ -1,7 +1,7 @@
 #!/bin/bash
 
 availabilityZone="us-east-1a"
-name="SC-Instance"
+name="SC-Instance22"
 keyPairName="$name-KP"
 vpcName="$name VPC"
 subnetName="$name Subnet"
@@ -104,7 +104,7 @@ aws ec2 create-tags \
 
 security_response2=$(aws ec2 authorize-security-group-ingress \
  --group-id "$groupId" \
- --protocol tcp --port 22 \
+ --protocol all \
  --cidr "$port22CidrBlock")
 
 #add route to subnet
